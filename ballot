@@ -31,6 +31,7 @@ contract Ballot {
     /** 
      * @dev Create a new ballot to choose one of 'proposalNames'.
      * @param proposalNames names of proposals
+     * be carefuly with edit
      */
     constructor(bytes32[] memory proposalNames) {
         chairperson = msg.sender;
